@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/remove-element/description/
-namespace Exercises.Solutions;
+namespace Exercises.Solutions.Array_or_String;
 
 public class RemoveOccurrences
 {

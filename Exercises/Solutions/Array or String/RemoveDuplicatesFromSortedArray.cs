@@ -1,6 +1,6 @@
 // https://leetcode.com/problems/remove-duplicates-from-sorted-array/description
 
-namespace Exercises.Solutions;
+namespace Exercises.Solutions.Array_or_String;
 
 public class RemoveDuplicatesFromSortedArray
 {

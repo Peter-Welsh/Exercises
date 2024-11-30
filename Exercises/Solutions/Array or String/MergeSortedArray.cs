@@ -1,5 +1,5 @@
 // https://leetcode.com/problems/merge-sorted-array/description/
-namespace Exercises.Solutions;
+namespace Exercises.Solutions.Array_or_String;
 
 public class MergeSortedArray
 {
