@@ -6,11 +6,7 @@ public class MergeSortedArray
     // Understandable and concise solution (for use when performance is not the top priority)
     public void Merge(int[] nums1, int m, int[] nums2, int n)
     {
-        for (var i = 0; i < n; i++)
-        {
-            nums1[m] = nums2[i];
-            m++;
-        }
+        Array.Copy(nums2, 0, nums1, m, nums2.Length);
         Array.Sort(nums1);
     }
     
