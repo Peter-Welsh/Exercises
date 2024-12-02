@@ -8,4 +8,29 @@
         <RootNamespace>Exercises</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="Solutions\1D DP\" />
+      <Folder Include="Solutions\Backtracking\" />
+      <Folder Include="Solutions\Binary Search Tree\" />
+      <Folder Include="Solutions\Binary Search\" />
+      <Folder Include="Solutions\Binary Tree BFS\" />
+      <Folder Include="Solutions\Binary Tree General\" />
+      <Folder Include="Solutions\Bit Manipulation\" />
+      <Folder Include="Solutions\Divide &amp; Conquer\" />
+      <Folder Include="Solutions\Graph BFS\" />
+      <Folder Include="Solutions\Graph General\" />
+      <Folder Include="Solutions\Hashmap\" />
+      <Folder Include="Solutions\Heap\" />
+      <Folder Include="Solutions\Intervals\" />
+      <Folder Include="Solutions\Kadane's Algorithm\" />
+      <Folder Include="Solutions\Linked List\" />
+      <Folder Include="Solutions\Math\" />
+      <Folder Include="Solutions\Matrix\" />
+      <Folder Include="Solutions\Multidimensional DP\" />
+      <Folder Include="Solutions\Sliding Window\" />
+      <Folder Include="Solutions\Stack\" />
+      <Folder Include="Solutions\Trie\" />
+      <Folder Include="Solutions\Two Pointers\" />
+    </ItemGroup>
+
 </Project>
