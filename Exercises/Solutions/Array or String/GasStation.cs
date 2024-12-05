@@ -16,6 +16,6 @@ public class GasStation
             surplus = 0;
             start = i + 1;
         }
-        return (totalSurplus >= 0) ? start : -1;
+        return totalSurplus >= 0 ? start : -1;
     }
 }
