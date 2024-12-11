@@ -27,7 +27,6 @@
       <Folder Include="Solutions\Math\" />
       <Folder Include="Solutions\Matrix\" />
       <Folder Include="Solutions\Multidimensional DP\" />
-      <Folder Include="Solutions\Sliding Window\" />
       <Folder Include="Solutions\Stack\" />
       <Folder Include="Solutions\Trie\" />
     </ItemGroup>
