@@ -25,7 +25,6 @@
       <Folder Include="Solutions\Kadane's Algorithm\" />
       <Folder Include="Solutions\Linked List\" />
       <Folder Include="Solutions\Math\" />
-      <Folder Include="Solutions\Matrix\" />
       <Folder Include="Solutions\Multidimensional DP\" />
       <Folder Include="Solutions\Stack\" />
       <Folder Include="Solutions\Trie\" />
