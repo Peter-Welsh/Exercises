@@ -61,22 +61,22 @@ public class ValidSudoku
         var rows = new int[9];
         var columns = new int[9];
         var boxes = new int[9];
-        for (var i = 0; i < 9; i++)
+        for (var r = 0; r < 9; r++)
         {
-            for (var j = 0; j < 9; j++)
+            for (var c = 0; c < 9; c++)
             {
-                if (board[i][j] == '.') { continue; }
-                var num = board[i][j] - '1';
+                if (board[r][c] == '.') { continue; }
+                var num = board[r][c] - '1';
                 var mask = 1 << num;
-                var boxIndex = i / 3 * 3 + j / 3;
-                if ((rows[i] & mask) != 0 ||
-                    (columns[j] & mask) != 0 ||
+                var boxIndex = r / 3 * 3 + c / 3;
+                if ((rows[r] & mask) != 0 ||
+                    (columns[c] & mask) != 0 ||
                     (boxes[boxIndex] & mask) != 0)
                 {
                     return false;
                 }
-                rows[i] |= mask;
-                columns[j] |= mask;
+                rows[r] |= mask;
+                columns[c] |= mask;
                 boxes[boxIndex] |= mask;
             }
         }
