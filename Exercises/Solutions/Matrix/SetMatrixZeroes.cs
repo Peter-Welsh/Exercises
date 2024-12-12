@@ -7,23 +7,23 @@ public class SetMatrixZeroes
     {
         var m = matrix.Length;
         var n = matrix[0].Length;
-        var row = new int[m];
-        var col = new int[n];
-        for (var i = 0; i < m; i++)
+        var zeroRows = new bool[m];
+        var zeroCols = new bool[n];
+        for (var row = 0; row < m; row++)
         {
-            for (var j = 0; j < n; j++)
+            for (var col = 0; col < n; col++)
             {
-                if (matrix[i][j] != 0) { continue; }
-                row[i] = 1;
-                col[j] = 1;
+                if (matrix[row][col] != 0) { continue; }
+                zeroRows[row] = true;
+                zeroCols[col] = true;
             }
         }
-        for (var i = 0; i < m; i++)
+        for (var row = 0; row < m; row++)
         {
-            for (var j = 0; j < n; j++)
+            for (var col = 0; col < n; col++)
             {
-                if (row[i] != 1 && col[j] != 1) { continue; }
-                matrix[i][j] = 0;
+                if (!zeroRows[row] && !zeroCols[col]) { continue; }
+                matrix[row][col] = 0;
             } 
         }
     }
