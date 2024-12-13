@@ -9,12 +9,12 @@ public class Group_Anagrams
         foreach (var str in strs)
         {
             var groupKey = GetGroupKey(str);
-            if (!anagramGroups.TryGetValue(groupKey, out var group))
+            if (anagramGroups.TryGetValue(groupKey, out var group))
             {
-                group = new List<string>();
-                anagramGroups[groupKey] = group;
+                group.Add(str);
+                continue;
             }
-            group.Add(str);
+            anagramGroups[groupKey] = new List<string> { str };
         }
         return anagramGroups.Values.ToList();
     }
