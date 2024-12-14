@@ -35,8 +35,8 @@ public class LinkedListCycle
     }
 }
 
-public abstract class ListNode(int x)
+public class ListNode(int x = 0, ListNode? next = null)
 {
-    public int val = x;
-    public readonly ListNode? next = null;
+    public readonly int val = x;
+    public ListNode? next = next;
 }
