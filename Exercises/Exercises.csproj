@@ -21,7 +21,6 @@
       <Folder Include="Solutions\Graph General\" />
       <Folder Include="Solutions\Heap\" />
       <Folder Include="Solutions\Kadane's Algorithm\" />
-      <Folder Include="Solutions\Linked List\" />
       <Folder Include="Solutions\Math\" />
       <Folder Include="Solutions\Multidimensional DP\" />
       <Folder Include="Solutions\Trie\" />
