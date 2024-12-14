@@ -20,7 +20,6 @@
       <Folder Include="Solutions\Graph BFS\" />
       <Folder Include="Solutions\Graph General\" />
       <Folder Include="Solutions\Heap\" />
-      <Folder Include="Solutions\Intervals\" />
       <Folder Include="Solutions\Kadane's Algorithm\" />
       <Folder Include="Solutions\Linked List\" />
       <Folder Include="Solutions\Math\" />
