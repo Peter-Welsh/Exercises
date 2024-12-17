@@ -14,7 +14,6 @@
       <Folder Include="Solutions\Binary Search Tree\" />
       <Folder Include="Solutions\Binary Search\" />
       <Folder Include="Solutions\Binary Tree BFS\" />
-      <Folder Include="Solutions\Binary Tree General\" />
       <Folder Include="Solutions\Bit Manipulation\" />
       <Folder Include="Solutions\Divide &amp; Conquer\" />
       <Folder Include="Solutions\Graph BFS\" />
