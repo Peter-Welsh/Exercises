@@ -13,7 +13,7 @@ public abstract class SameTree
                && IsSameTree(p.right, q.right);
     }
 }
-public abstract class TreeNode(int val = 0, TreeNode? left = null, TreeNode? right = null)
+public class TreeNode(int val = 0, TreeNode? left = null, TreeNode? right = null)
 {
     public readonly int val = val;
     public TreeNode? left = left;
